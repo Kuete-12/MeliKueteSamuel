@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ton_repo/ton_projet.git'
+                git branch: 'main', url: 'https://github.com/Kuete-12/MeliKueteSamuel.git'
             }
         }
 
@@ -27,3 +27,4 @@ pipeline {
         }
     }
 }
+
